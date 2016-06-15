@@ -1,0 +1,138 @@
+
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+	background-color: #86D7C5;
+	color: black;
+}
+.navbar-right{
+	background-color: #86D7C5;
+}
+
+ul li a {
+	color: black;
+}
+
+ul li a:hover {
+	color: #40B299;
+}
+
+.img-clinique {
+	background-image: url(chien.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 50px;
+	width: 100%;
+  	height: 500px;
+  	opacity: 0.7;
+	
+}
+
+.nom{
+	margin: 145px 0 auto 60px;
+}
+
+.image {
+	margin: 0 auto;
+	height: 25px;
+	width: 25px;
+}
+
+h1, h3, h2, h5{
+	text-align: center
+}
+
+h1 {
+	font-size: 70px;
+	color: black;
+}
+
+h3 {
+	font-size: 45px;
+	color: black;
+}
+
+.presentation {
+	background-color: white;
+}
+p {
+	text-align: justify;
+	margin-left: 10px;
+	margin-bottom: 70px;
+	
+}
+
+.photo_veto {
+	float: left;
+	height: 150px;
+	width: 120px;
+}
+
+
+
+.footer{
+	padding-top: 15px ;
+	background-color: #40B299;
+	color: white;
+}
+
+
+/* CSS 3eme page Tarifs*/
+.accordion{
+	height: 700px;
+}
+
+#accordion {
+	margin-top: 100px; 
+	margin-bottom: 100px;
+}
+
+
+/* CSS 4eme page Contact*/
+
+
+
+.identite {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+input {
+	height: 50px;
+	width: 200px;
+}
+.type {
+	height: 50px;
+	width: 200px;
+}
+
+.probleme {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	height: 50px;
+	width: 200px;
+}
+.avis {
+	width: 500px;
+	height : 200px;
+}
+
+.adresse {
+	margin-top: 80px;
+	margin-bottom: 20px;
+	margin-left: 33%;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color: #40B299;
+	color: white;
+	height: 120px;
+	width: 180px;
+	border-radius: 10px;
+}
+
+map {
+	margin-left: 33%;
+}
