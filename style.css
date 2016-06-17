@@ -11,6 +11,10 @@
 	background-color: #86D7C5;
 }
 
+.navbar-fixed-top {
+	margin-bottom: 10px;
+}
+
 ul li a {
 	color: black;
 }
@@ -35,13 +39,17 @@ ul li a:hover {
 	margin: 145px 0 auto 60px;
 }
 
-.image {
+.flaticons {
 	margin: 0 auto;
-	height: 25px;
-	width: 25px;
+	height: 50px;
+	width: 100px;
+}
+.flaticon {
+	height: 35px;
+	width: 35px;
 }
 
-h1, h3, h2, h5{
+h1, h3, h2, h5, h4{
 	text-align: center
 }
 
@@ -74,9 +82,31 @@ p {
 
 
 .footer{
+	margin-top: 20px;
 	padding-top: 15px ;
 	background-color: #40B299;
 	color: white;
+}
+
+/* CSS 2eme page Conseils*/
+
+.pageConseil {
+	margin-top: 80px;
+}
+
+.icone {
+	height: 180px;
+	width: 180px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+
+.separation {
+	margin-top: 100px;
+}
+
+h6 {
+
 }
 
 
@@ -93,10 +123,14 @@ p {
 
 /* CSS 4eme page Contact*/
 
+/* CSS 4eme page partie formulaire*/
 
-
-.identite {
+.TitreForm {
 	margin-top: 100px;
+	margin-right: 50px;
+}
+.identite {
+	margin-top: 40px;
 	margin-bottom: 20px;
 }
 
@@ -118,21 +152,28 @@ input {
 .avis {
 	width: 500px;
 	height : 200px;
+	margin-bottom: 5px;
 }
 
+.EnvoieForm {
+	float: right;
+	margin-right: 40px;
+}
+
+/* CSS 4eme page partie adresse et map*/
 .adresse {
+	margin: 0 auto;
 	margin-top: 80px;
-	margin-bottom: 20px;
-	margin-left: 33%;
+	margin-bottom: 40px;
 	padding-top: 10px;
 	padding-left: 10px;
 	background-color: #40B299;
 	color: white;
 	height: 120px;
-	width: 180px;
+	width: 280px;
 	border-radius: 10px;
 }
 
-map {
-	margin-left: 33%;
+.map {
+	margin: 0 auto;
 }
