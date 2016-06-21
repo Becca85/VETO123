@@ -127,10 +127,13 @@ h6 {
 .TitreTarif {
 	text-align: left;
 	color: white;
+	line-height: 30px;
 }
 
 .panel-heading {
 	background-color: #008080;
+	height: 55px;
+
 }
 
 
