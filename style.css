@@ -95,9 +95,9 @@ p {
 }
 
 .icone {
-	height: 180px;
-	width: 180px;
-	margin-left: 100px;
+	height: auto;
+	width: auto;
+	margin-left: 120px;
 	margin-bottom: 20px;
 }
 
@@ -105,8 +105,26 @@ p {
 	margin-top: 100px;
 }
 
-h6 {
+h6 { 
+	padding-top: 80px;
+}
 
+.scrollup {
+	width: 200px;
+	height: 60px;
+	position: fixed;
+	bottom: 70px;
+	right: 70px;
+	display: none;
+	color: #40B299;
+	border: none;
+	font-size: 20px;
+	text-align: center;
+	line-height: 37px;
+}
+ 
+.scrollup:hover {
+	color: green;
 }
 
 
@@ -120,6 +138,9 @@ h6 {
 	margin-bottom: 100px;
 }
 
+#TitreTarif {
+	text-align: left;
+}
 
 /* CSS 4eme page Contact*/
 
@@ -179,18 +200,6 @@ input {
 }
 
 
-<<<<<<< HEAD
-.raison-sociale{
-	height: 100%;
-	margin-top: 70px;
-}
-
-.mentions {
-	margin-bottom: 20px;
-	margin-right: 100px;
-	font-size: 14px;			
-}
-=======
 /* CSS plan du site*/
 
 .indexPlanDuSite {
@@ -203,11 +212,7 @@ input {
  	text-align: center;
  }
 
- .logo {
+ .logo {;
 	 margin-bottom: 70px;	
-	}
->>>>>>> acdccfb10c5066236ac492b12b2a4df77a4d3107
 
-span{
-	color: blue;
-}
+ }
