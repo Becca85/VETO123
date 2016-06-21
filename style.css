@@ -4,11 +4,11 @@
 }
 
 .navbar {
-	background-color: #86D7C5;
+	background-color: #008080;
 	color: black;
 }
 .navbar-right{
-	background-color: #86D7C5;
+	background-color: #008080;
 }
 
 .navbar-fixed-top {
@@ -16,7 +16,7 @@
 }
 
 ul li a {
-	color: black;
+	color: white;
 }
 
 ul li a:hover {
@@ -84,7 +84,11 @@ p {
 .footer{
 	margin-top: 20px;
 	padding-top: 15px ;
-	background-color: #40B299;
+	background-color: #008080;
+	color: white;
+}
+
+h5 a {
 	color: white;
 }
 
