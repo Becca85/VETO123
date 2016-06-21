@@ -124,6 +124,15 @@ h6 {
 	margin-bottom: 100px;
 }
 
+.TitreTarif {
+	text-align: left;
+	color: white;
+}
+
+.panel-heading {
+	background-color: #008080;
+}
+
 
 /* CSS 4eme page Contact*/
 
