@@ -203,15 +203,16 @@ input {
 /* CSS plan du site*/
 
 .indexPlanDuSite {
-	text-align: left;
+	text-align: center;
 
 }
 
  ul li {
  	list-style: none;
+ 	text-align: center;
  }
 
  .logo {
-	 	
+	 margin-bottom: 70px;	
 
  }
