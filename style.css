@@ -221,7 +221,22 @@ input {
 	margin: 0 auto;
 }
 
+/* CSS mentions légales*/
 
+
+.raison-sociale{
+	height: 100%;
+	margin-top: 70px;
+}
+
+.mentions {
+	margin-bottom: 20px;
+	margin-right: 100px;
+	font-size: 14px;			
+}
+
+=======
+>>>>>>> 6c275db91e7b1dce06a3c63cae5f16c16ef490ff
 /* CSS plan du site*/
 
 .indexPlanDuSite {
@@ -234,7 +249,7 @@ input {
  	text-align: center;
  }
 
- .logo {;
+ .logo {
 	 margin-bottom: 70px;	
 
  }
