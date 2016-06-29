@@ -60,10 +60,6 @@ h1 {
 	font-weight: 600;
 }
 
-h2 {
-	margin: 60px auto 40px auto;
-}
-
 h3 {
 	font-size: 35px;
 	color: white;
@@ -84,7 +80,6 @@ p {
 	float: left;
 	height: 150px;
 	width: 120px;
-	margin: 0 30px 30px 0;
 }
 
 
@@ -221,35 +216,27 @@ input {
 	margin: 0 auto;
 }
 
-/* CSS mentions légales*/
 
-
-.raison-sociale{
-	height: 100%;
-	margin-top: 70px;
-}
-
-.mentions {
-	margin-bottom: 20px;
-	margin-right: 100px;
-	font-size: 14px;			
-}
-
-=======
->>>>>>> 6c275db91e7b1dce06a3c63cae5f16c16ef490ff
 /* CSS plan du site*/
 
-.indexPlanDuSite {
-	text-align: center;
 
+.listePDS {
+	color: #555;
+	list-style: none;
+	margin-left: 50px;
 }
 
- ul li {
- 	list-style: none;
- 	text-align: center;
- }
+li {
+	list-style: none;
+}
 
- .logo {
-	 margin-bottom: 70px;	
+.list-group-item {
+	border: none;
+}
 
- }
+ 
+.menuplan ul a {
+	color: black;
+	list-style: none;
+}
+
