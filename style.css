@@ -219,17 +219,24 @@ input {
 
 /* CSS plan du site*/
 
-.indexPlanDuSite {
-	text-align: center;
 
+.listePDS {
+	color: #555;
+	list-style: none;
+	margin-left: 50px;
 }
 
- ul li {
- 	list-style: none;
- 	text-align: center;
- }
+li {
+	list-style: none;
+}
 
- .logo {;
-	 margin-bottom: 70px;	
+.list-group-item {
+	border: none;
+}
 
- }
+ 
+.menuplan ul a {
+	color: black;
+	list-style: none;
+}
+
