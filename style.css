@@ -1,14 +1,23 @@
 	
 * {
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Roboto Condensed', sans-serif;
 }
+
+
+.corpsDuTexte {
+	padding: 0px;
+}
+
+/* CSS menu*/
 
 .navbar {
 	background-color: #008080;
 	color: black;
 }
-.navbar-right{
+.menu{
 	background-color: #008080;
+	margin: 0px !important;
 }
 
 .navbar-fixed-top {
@@ -23,20 +32,23 @@ ul li a:hover {
 	color: #40B299;
 }
 
+/* CSS Page d'Accueil*/
+
 .img-clinique {
 	background-image: url(chien.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin-top: 50px;
+	margin: 50px 0px 0px 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 	width: 100%;
   	height: 500px;
-  	
-	
+  	position: relative;	 	
 }
 
 .nom{
-	margin: 95px 0 auto 60px;
+	margin: 40px 0px 10px 0px;
 }
 
 .flaticons {
@@ -58,18 +70,32 @@ h1 {
 	color: white;
 	font-family: "Rajdhani";
 	font-weight: 600;
+	margin-bottom: -30px;
 }
 
 h3 {
-	font-size: 35px;
+	font-size: 60px;
 	color: white;
 	font-family: "Rajdhani";
+	margin-top: 0px;
 }
 
+.InfoHoraire {
+	margin: 37px 0px 0px 0px;
+	background-color: #8EB7FE;
+	bottom: 0px;
+	padding: 10px 5px 5px 5px;
+}
+
+.Horaires {
+	font-size: 18px;
+	color: #475061;
+	text-align: center;
+}
 .presentation {
 	background-color: white;
 }
-p {
+.PresentationVeto {
 	text-align: justify;
 	margin-left: 10px;
 	margin-bottom: 70px;
@@ -78,7 +104,7 @@ p {
 
 .photo_veto {
 	float: left;
-	height: 150px;
+	height: 100px;
 	width: 120px;
 }
 
@@ -216,36 +242,41 @@ input {
 	margin: 0 auto;
 }
 
-/* CSS mentions légales*/
 
+/* CSS 5eme page Mentions Légales*/
 
-.raison-sociale{
-	height: 100%;
-	margin-top: 70px;
+.raison-sociale {
+	margin-top: 75px;
 }
 
 .mentions {
-	margin-bottom: 20px;
-	margin-right: 100px;
-	font-size: 14px;			
+	
+margin-bottom: 35px;
+
 }
 
-=======
->>>>>>> 6c275db91e7b1dce06a3c63cae5f16c16ef490ff
 /* CSS plan du site*/
 
-.indexPlanDuSite {
-	text-align: center;
-
+.listePDS {
+	color: #555;
+	list-style: none;
+	margin-left: 50px;
 }
 
- ul li {
- 	list-style: none;
- 	text-align: center;
- }
+li {
+	list-style: none;
+}
 
- .logo {
-	 margin-bottom: 70px;	
+.list-group-item {
+	border: none;
+}
+
+ 
+.menuplan ul a {
+	color: black;
+	list-style: none;
+}
+
 
  }
 
@@ -263,3 +294,4 @@ margin-bottom: 25px;
 .separation{
   height: 0px;
 }
+
