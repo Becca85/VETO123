@@ -1,4 +1,4 @@
-
+	
 * {
 	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: 'Roboto Condensed', sans-serif;
@@ -275,5 +275,23 @@ li {
 .menuplan ul a {
 	color: black;
 	list-style: none;
+}
+
+
+ }
+
+/* CSS carousel*/
+#myCarousel.carousel.slide {
+  width: 100%; 
+  max-width: 800px;
+  margin: auto;
+}
+
+#fi-carousel {
+margin-bottom: 25px;
+
+}
+.separation{
+  height: 0px;
 }
 
