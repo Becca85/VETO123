@@ -170,7 +170,7 @@ section {
 .btn-circle-lg3 {
   width: 160px !important;
   height: 160px !important;
-  text-align: center;
+  text-align: center; 
   font-size: 30px;
   line-height: 2.00;
   border-radius: 70px !important;
