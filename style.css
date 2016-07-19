@@ -97,7 +97,6 @@ h3 {
 }
 .PresentationVeto {
 	text-align: justify;
-	margin-left: 10px;
 	margin-bottom: 20px;
 	margin-left: 10px;
 	
@@ -105,9 +104,10 @@ h3 {
 
 .photo_veto {
 	float: left;
-	height: 235px;
+	height: 215px;
 	width: 235px;
 	margin-right: 10px;
+	border-radius: 70px;
 }
 
 
