@@ -168,7 +168,7 @@ h6 {
 	height: 700px;
 }
 
-#accordion {
+.accordeonConseils{
 	margin-top: 100px; 
 	margin-bottom: 100px;
 }
@@ -185,6 +185,18 @@ h6 {
 	margin-bottom: 5px;
 }
 
+/* CSS page Espaces de ventes*/
+.TitreVentes {
+	margin-top: 60px;
+	color: black;
+}
+.PartenaireVentes {
+	color: black;
+}
+.accordeonVentes {
+	margin-top: 50px; 
+	margin-bottom: 100px;
+}
 
 
 /* CSS 4eme page Contact*/
