@@ -296,20 +296,10 @@ li {
 }
 
 
- }
-
 /* CSS carousel*/
-#myCarousel.carousel.slide {
-  width: 100%; 
-  max-width: 800px;
-  margin: auto;
-}
 
-#fi-carousel {
-margin-bottom: 25px;
-
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 58.5%;
+      margin: auto;
 }
-.separation{
-  height: 0px;
-}
-
