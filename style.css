@@ -99,13 +99,15 @@ h3 {
 	text-align: justify;
 	margin-left: 10px;
 	margin-bottom: 20px;
+	margin-left: 10px;
 	
 }
 
 .photo_veto {
 	float: left;
-	height: 100px;
-	width: 120px;
+	height: 235px;
+	width: 235px;
+	margin-right: 10px;
 }
 
 
