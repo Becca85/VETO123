@@ -12,12 +12,12 @@
 /* CSS menu*/
 
 .navbar {
-	background-color: #008080;
+	background-color: #3A83FF;
 	color: black;
 }
 .menu{
-	background-color: #008080;
-	margin: 0px !important;
+	background-color: #3A83FF;
+	margin-left: 250px;
 }
 
 .navbar-fixed-top {
@@ -98,7 +98,7 @@ h3 {
 .PresentationVeto {
 	text-align: justify;
 	margin-left: 10px;
-	margin-bottom: 70px;
+	margin-bottom: 20px;
 	
 }
 
@@ -113,7 +113,7 @@ h3 {
 .footer{
 	margin-top: 20px;
 	padding-top: 15px ;
-	background-color: #008080;
+	background-color: #3A83FF;
 	color: white;
 }
 
