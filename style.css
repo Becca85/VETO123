@@ -35,7 +35,7 @@ ul li a:hover {
 /* CSS Page d'Accueil*/
 
 .img-clinique {
-	background-image: url(chien.jpg);
+	background-image: url(img-renomes/facade.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -43,12 +43,12 @@ ul li a:hover {
 	padding-left: 0px;
 	padding-right: 0px;
 	width: 100%;
-  	height: 500px;
+  	height: 400px;
   	position: relative;	 	
 }
 
 .nom{
-	margin: 40px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;
 }
 
 .flaticons {
@@ -65,23 +65,23 @@ h1, h3, h2, h5, h4{
 	text-align: center;
 }
 
-h1 {
+.raisonSocial {
 	font-size: 150px;
-	color: white;
+	color: black;
 	font-family: "Rajdhani";
 	font-weight: 600;
 	margin-bottom: -30px;
 }
 
-h3 {
-	font-size: 60px;
-	color: white;
+.MedecinVeto {
+	font-size: 50px;
+	color: black;
 	font-family: "Rajdhani";
 	margin-top: 0px;
 }
 
 .InfoHoraire {
-	margin: 37px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	background-color: #8EB7FE;
 	bottom: 0px;
 	padding: 10px 5px 5px 5px;
@@ -136,7 +136,6 @@ h5 a {
 }
 .sterilisation{
 	color:#008080;
-
 }
 
 .btn {
@@ -210,31 +209,36 @@ h5 a {
   background-image: url('elements/img123vet/icoSteril.svg') !important;
 }
 
-/* CSS 3eme page Tarifs*/
+/* CSS 3eme page Prestation*/
+.Titre {
+	margin-top: 10px;
+	color: black;
+}
+
 .accordion{
-	height: 700px;
+	height: 70vh;
 }
 
 .accordeonConseils{
-	margin-top: 100px; 
-	margin-bottom: 100px;
+	margin-top: 10px; 
+	margin-bottom: 10px;
 }
 
 .TitreTarif {
 	text-align: left;
-	color: white;
+	color: #000B50;
 	line-height: 30px;
 }
 
 .panel-heading {
-	background-color: #916F6F;
+	background-color: #8BBDD3;
 	height: 55px;
 	margin-bottom: 5px;
 }
 
 /* CSS page Espaces de ventes*/
 .TitreVentes {
-	margin-top: 60px;
+	margin-top: 25px;
 	color: black;
 }
 .PartenaireVentes {
@@ -242,12 +246,17 @@ h5 a {
 }
 .accordeonVentes {
 	margin-top: 50px; 
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 }
 .accordeonVentes2 {
 	background-color: #046893;
 	height: 55px;
 	margin-bottom: 5px;
+}
+.TitreVentes2 {
+	text-align: left;
+	color: white;
+	line-height: 30px;
 }
 
 /* CSS 4eme page Contact*/
