@@ -163,31 +163,36 @@ h6 {
 }
 
 
-/* CSS 3eme page Tarifs*/
+/* CSS 3eme page Prestation*/
+.Titre {
+	margin-top: 10px;
+	color: black;
+}
+
 .accordion{
-	height: 700px;
+	height: 70vh;
 }
 
 .accordeonConseils{
-	margin-top: 100px; 
-	margin-bottom: 100px;
+	margin-top: 10px; 
+	margin-bottom: 10px;
 }
 
 .TitreTarif {
 	text-align: left;
-	color: white;
+	color: #000B50;
 	line-height: 30px;
 }
 
 .panel-heading {
-	background-color: #916F6F;
+	background-color: #8BBDD3;
 	height: 55px;
 	margin-bottom: 5px;
 }
 
 /* CSS page Espaces de ventes*/
 .TitreVentes {
-	margin-top: 60px;
+	margin-top: 25px;
 	color: black;
 }
 .PartenaireVentes {
@@ -195,12 +200,17 @@ h6 {
 }
 .accordeonVentes {
 	margin-top: 50px; 
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 }
 .accordeonVentes2 {
 	background-color: #046893;
 	height: 55px;
 	margin-bottom: 5px;
+}
+.TitreVentes2 {
+	text-align: left;
+	color: white;
+	line-height: 30px;
 }
 
 /* CSS 4eme page Contact*/
