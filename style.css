@@ -132,8 +132,8 @@ h5 a {
 .icone {
 	height: auto;
 	width: auto;
-	margin-left: 120px;
-	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-bottom: 30px;
 }
 
 .separation {
@@ -143,25 +143,117 @@ h5 a {
 h6 { 
 	padding-top: 80px;
 }
-
-.scrollup {
-	width: 200px;
-	height: 60px;
-	position: fixed;
-	bottom: 70px;
-	right: 70px;
-	display: none;
-	color: #40B299;
-	border: none;
-	font-size: 20px;
-	text-align: center;
-	line-height: 37px;
-}
- 
-.scrollup:hover {
-	color: green;
+/* button popup icones conseils */
+section {
+	margin-left: 400px;
 }
 
+.row {
+	display: inline-block;
+	position: relative;
+	height: auto;
+	width: auto;
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+
+.btn {
+	vertical-align: 0 !important;
+	margin-top: 80px;
+}
+
+.btn-circle-lg {
+  width: 160px !important;
+  height: 160px !important;
+  text-align: center;
+  padding: 13px 0 !important;
+  font-size: 30px;
+  line-height: 2.00;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoSteril.svg') !important;
+}
+
+.btn-circle-lg1 {
+  width: 160px !important;
+  height: 160px !important;
+  text-align: center;
+  padding: 13px 0 !important;
+  font-size: 30px;
+  line-height: 2.00;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoVacc.svg') !important;
+}
+
+.btn-circle-lg2 {
+  width: 160px !important;
+  height: 160px !important;
+  text-align: center;
+  padding: 13px 0 !important;
+  font-size: 30px;
+  line-height: 2.00;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoParaz.svg') !important;
+}
+
+.btn-circle-lg3 {
+  width: 160px !important;
+  height: 160px !important;
+  text-align: center; 
+  font-size: 30px;
+  line-height: 2.00;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoMed.svg') !important;
+}
+
+.btn-circle-lg4 {
+  width: 160px !important;
+  height: 160px !important;
+  text-align: center;
+  font-size: 30px;
+  line-height: 2.00;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoHyg.svg') !important;
+}
+
+.btn-circle-lg5 {
+  width: 160px !important;
+  height: 160px !important;
+  text-align: center;
+  font-size: 30px;
+  line-height: 2.00;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoID.svg') !important;
+}
+
+.btn-circle-lg6 {
+  width: 160px !important;
+  height: 160px !important;
+  text-align: center;
+  font-size: 30px;
+  line-height: 2.00;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoEduc1.svg') !important;
+}
+
+.btn-circle-lg7  {
+  width: 160px !important;
+  height: 160px !important;
+  text-align: center;
+  font-size: 30px;
+  line-height: 2.00;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoSteril.svg') !important;
+}
+
+.btn-circle-lg8  {
+  width: 160px !important;
+  height: 160px !important;
+  text-align: center;
+  font-size: 30px;
+  line-height: 2.00;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoSteril.svg') !important;
+}
 
 /* CSS 3eme page Prestation*/
 .Titre {
