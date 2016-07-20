@@ -148,14 +148,14 @@ section {
 	margin-left: 400px;
 }
 
-.row {
+/*.row {
 	display: inline-block;
 	position: relative;
 	height: auto;
 	width: auto;
 	margin-right: auto !important;
 	margin-left: auto !important;
-}
+}*/
 
 .btn {
 	vertical-align: 0 !important;
