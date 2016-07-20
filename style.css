@@ -35,7 +35,7 @@ ul li a:hover {
 /* CSS Page d'Accueil*/
 
 .img-clinique {
-	background-image: url(chien.jpg);
+	background-image: url(img-renomes/facade.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -43,12 +43,12 @@ ul li a:hover {
 	padding-left: 0px;
 	padding-right: 0px;
 	width: 100%;
-  	height: 500px;
+  	height: 400px;
   	position: relative;	 	
 }
 
 .nom{
-	margin: 40px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;
 }
 
 .flaticons {
@@ -65,23 +65,23 @@ h1, h3, h2, h5, h4{
 	text-align: center;
 }
 
-h1 {
+.raisonSocial {
 	font-size: 150px;
-	color: white;
+	color: black;
 	font-family: "Rajdhani";
 	font-weight: 600;
 	margin-bottom: -30px;
 }
 
-h3 {
-	font-size: 60px;
-	color: white;
+.MedecinVeto {
+	font-size: 50px;
+	color: black;
 	font-family: "Rajdhani";
 	margin-top: 0px;
 }
 
 .InfoHoraire {
-	margin: 37px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	background-color: #8EB7FE;
 	bottom: 0px;
 	padding: 10px 5px 5px 5px;
