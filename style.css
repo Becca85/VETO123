@@ -317,11 +317,11 @@ h5 a {
 /* CSS 4eme page partie formulaire*/
 
 .TitreForm {
-	margin-top: 100px;
+	margin-top: 80px;
 	margin-right: 50px;
 }
 .identite {
-	margin-top: 40px;
+	margin-top: 25px;
 	margin-bottom: 20px;
 }
 
@@ -343,7 +343,7 @@ input {
 
 .avis {
 	width: 500px;
-	height : 200px;
+	height : 150px;
 	margin-bottom: 5px;
 }
 
