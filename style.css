@@ -1,4 +1,4 @@
-	
+
 * {
 	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: 'Roboto Condensed', sans-serif;
@@ -48,7 +48,9 @@ ul li a:hover {
 }
 
 .nom{
+
 	margin: 0px 0px 10px 0px;
+
 }
 
 .flaticons {
@@ -72,6 +74,7 @@ h1, h3, h2, h5, h4{
 	font-weight: 600;
 	margin-bottom: -30px;
 }
+
 
 .MedecinVeto {
 	font-size: 50px;
@@ -98,8 +101,8 @@ h1, h3, h2, h5, h4{
 .PresentationVeto {
 	text-align: justify;
 	margin-bottom: 20px;
-	margin-left: 10px;
-	
+	margin-left: 10px;	
+
 }
 
 .photo_veto {
@@ -314,11 +317,11 @@ h5 a {
 /* CSS 4eme page partie formulaire*/
 
 .TitreForm {
-	margin-top: 100px;
+	margin-top: 80px;
 	margin-right: 50px;
 }
 .identite {
-	margin-top: 40px;
+	margin-top: 25px;
 	margin-bottom: 20px;
 }
 
@@ -340,7 +343,7 @@ input {
 
 .avis {
 	width: 500px;
-	height : 200px;
+	height : 150px;
 	margin-bottom: 5px;
 }
 
