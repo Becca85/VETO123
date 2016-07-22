@@ -35,7 +35,7 @@ ul li a:hover {
 /* CSS Page d'Accueil*/
 
 .img-clinique {
-	background-image: url(chien.jpg);
+	background-image: url(img-renomes/facade.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -43,12 +43,12 @@ ul li a:hover {
 	padding-left: 0px;
 	padding-right: 0px;
 	width: 100%;
-  	height: 500px;
+  	height: 400px;
   	position: relative;	 	
 }
 
 .nom{
-	margin: 40px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;
 }
 
 .flaticons {
@@ -65,23 +65,23 @@ h1, h3, h2, h5, h4{
 	text-align: center;
 }
 
-h1 {
+.raisonSocial {
 	font-size: 150px;
-	color: white;
+	color: black;
 	font-family: "Rajdhani";
 	font-weight: 600;
 	margin-bottom: -30px;
 }
 
-h3 {
-	font-size: 60px;
-	color: white;
+.MedecinVeto {
+	font-size: 50px;
+	color: black;
 	font-family: "Rajdhani";
 	margin-top: 0px;
 }
 
 .InfoHoraire {
-	margin: 37px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	background-color: #8EB7FE;
 	bottom: 0px;
 	padding: 10px 5px 5px 5px;
@@ -125,69 +125,120 @@ h5 a {
 
 /* CSS 2eme page Conseils*/
 
-.pageConseil {
+/* button popup icones conseils */
+
+.titrebutton ul li {
+	display: inline;
+	text-align: center;
+}
+.titrebutton > div{
+	text-align:center;
+}
+.sterilisation{
+	color:#008080;
+}
+
+.btn {
+	vertical-align: 0 !important;
 	margin-top: 80px;
 }
 
-.icone {
-	height: auto;
-	width: auto;
-	margin-left: 120px;
-	margin-bottom: 20px;
+.btn-circle-sterilisation {             /*STERI*/
+  width: 160px !important;
+  height: 160px !important;
+  padding: 13px 0 !important;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoSteril.svg') !important;
 }
 
-.separation {
-	margin-top: 100px;
+.btn-circle-lg1 {			/*VACCI*/
+  width: 160px !important;
+  height: 160px !important;
+  padding: 13px 0 !important;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoVacc.svg') !important;
 }
 
-h6 { 
-	padding-top: 80px;
+.btn-circle-lg2 {			/*PARASITES*/
+  width: 160px !important;
+  height: 160px !important;
+  padding: 13px 0 !important;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoParaz.svg') !important;
 }
 
-.scrollup {
-	width: 200px;
-	height: 60px;
-	position: fixed;
-	bottom: 70px;
-	right: 70px;
-	display: none;
-	color: #40B299;
-	border: none;
-	font-size: 20px;
-	text-align: center;
-	line-height: 37px;
-}
- 
-.scrollup:hover {
-	color: green;
+.btn-circle-lg3 {			/*MEDIC*/
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoMed.svg') !important;
 }
 
+.btn-circle-lg4 {			/*HYG*/
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoHyg.svg') !important;
+}
 
-/* CSS 3eme page Tarifs*/
+.btn-circle-lg5 {			/*ID*/
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoID.svg') !important;
+}
+
+.btn-circle-lg6 {			/*EDUC*/
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoEduc1.svg') !important;
+}
+
+.btn-circle-lg7  {			/*AUTRES1*/
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoSteril.svg') !important;
+}
+
+.btn-circle-lg8  {        /*AUTRES2*/
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoSteril.svg') !important;
+}
+
+/* CSS 3eme page Prestation*/
+.Titre {
+	margin-top: 10px;
+	color: black;
+}
+
 .accordion{
-	height: 700px;
+	height: 70vh;
 }
 
 .accordeonConseils{
-	margin-top: 100px; 
-	margin-bottom: 100px;
+	margin-top: 10px; 
+	margin-bottom: 10px;
 }
 
 .TitreTarif {
 	text-align: left;
-	color: white;
+	color: #000B50;
 	line-height: 30px;
 }
 
 .panel-heading {
-	background-color: #916F6F;
+	background-color: #8BBDD3;
 	height: 55px;
 	margin-bottom: 5px;
 }
 
 /* CSS page Espaces de ventes*/
 .TitreVentes {
-	margin-top: 60px;
+	margin-top: 25px;
 	color: black;
 }
 .PartenaireVentes {
@@ -195,12 +246,17 @@ h6 {
 }
 .accordeonVentes {
 	margin-top: 50px; 
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 }
 .accordeonVentes2 {
 	background-color: #046893;
 	height: 55px;
 	margin-bottom: 5px;
+}
+.TitreVentes2 {
+	text-align: left;
+	color: white;
+	line-height: 30px;
 }
 
 /* CSS 4eme page Contact*/
