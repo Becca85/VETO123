@@ -1,4 +1,4 @@
-		
+	
 * {
 	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: 'Roboto Condensed', sans-serif;
@@ -126,87 +126,137 @@ h5 a {
 /* CSS 2eme page Conseils*/
 
 /* button popup icones conseils */
-
-.titrebutton ul li {
-	display: inline;
-	text-align: center;
-}
-.titrebutton > div{
+/* position button/title & colors */
+.titrebutton > div {      
 	text-align:center;
 }
-.sterilisation{
-	color:#008080;
+
+/* button grp 1 */
+.sterilisation {
+	color: #008080;
+}
+
+.vaccination {
+	color: #99E298;
+}
+
+.parasites {
+	color: #916F6F;
+}
+
+/* button grp 2 */
+.medication {
+	color: #FF0000;
+}
+
+.hygienes  {
+	color: #D5D5FF;
+}
+
+.identification {
+	color: #800000;
+}
+
+/* button grp 3 */
+.education {
+	color: #80B3FF;
+}
+
+.autres1  {
+	color: #008080;
+}
+
+.autres2 {
+	color: #008080;
 }
 
 .btn {
 	vertical-align: 0 !important;
-	margin-top: 80px;
-}
 
-.btn-circle-sterilisation {             /*STERI*/
-  width: 160px !important;
-  height: 160px !important;
-  padding: 13px 0 !important;
+}
+/* button img */
+.btn-circle-sterilisation {            
+  width: 120px;
+  height: 120px;
+  margin-top: 60px;
   border-radius: 70px !important;
   background-image: url('elements/img123vet/icoSteril.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
 }
 
-.btn-circle-lg1 {			/*VACCI*/
-  width: 160px !important;
-  height: 160px !important;
-  padding: 13px 0 !important;
+.btn-circle-vaccination {			
+  width: 120px;
+  height: 120px;;
+  margin-top: 60px;
   border-radius: 70px !important;
   background-image: url('elements/img123vet/icoVacc.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
 }
 
-.btn-circle-lg2 {			/*PARASITES*/
-  width: 160px !important;
-  height: 160px !important;
-  padding: 13px 0 !important;
+.btn-circle-parasites {	
+  width: 120px;
+  height: 120px;
+  margin-top: 60px;
   border-radius: 70px !important;
   background-image: url('elements/img123vet/icoParaz.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
 }
 
-.btn-circle-lg3 {			/*MEDIC*/
-  width: 160px !important;
-  height: 160px !important;
+.btn-circle-medication {
+  width: 120px;
+  height: 120px;
   border-radius: 70px !important;
   background-image: url('elements/img123vet/icoMed.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
 }
 
-.btn-circle-lg4 {			/*HYG*/
-  width: 160px !important;
-  height: 160px !important;
+.btn-circle-hygienes {			
+  width: 120px;
+  height: 120px;
   border-radius: 70px !important;
   background-image: url('elements/img123vet/icoHyg.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
 }
 
-.btn-circle-lg5 {			/*ID*/
-  width: 160px !important;
-  height: 160px !important;
+.btn-circle-identification {			
+  width: 120px;
+  height: 120px;
   border-radius: 70px !important;
   background-image: url('elements/img123vet/icoID.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
 }
 
-.btn-circle-lg6 {			/*EDUC*/
-  width: 160px !important;
-  height: 160px !important;
+.btn-circle-education {			
+  width: 120px;
+  height: 120px;
   border-radius: 70px !important;
   background-image: url('elements/img123vet/icoEduc1.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
 }
 
-.btn-circle-lg7  {			/*AUTRES1*/
-  width: 160px !important;
-  height: 160px !important;
+.btn-circle-autres1  {			
+  width: 120px;
+  height: 120px;
   border-radius: 70px !important;
   background-image: url('elements/img123vet/icoSteril.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
 }
 
-.btn-circle-lg8  {        /*AUTRES2*/
-  width: 160px !important;
-  height: 160px !important;
+.btn-circle-autres2  {        
+  width: 120px;
+  height: 120px;
   border-radius: 70px !important;
   background-image: url('elements/img123vet/icoSteril.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
 }
 
 /* CSS 3eme page Prestation*/
