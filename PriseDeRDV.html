@@ -43,18 +43,21 @@
 			<!--Formulaire de contact-->
 			<h2 class="TitreForm">Prendre un rendez-vous</h2>
 			<form action="formulaire de contact" method="post">
-				<input type="text" name="nom" placeholder="NOM" class="identite "></code></section </br>
-				<input type="text" name="Prenom" placeholder="Prenom"></code></br>
+				<input type="text" name="nom" placeholder="NOM" class="identite "></code></section> 
+				<input type="text" name="Prenom" placeholder="Prenom"></code>
+				<input type="text" name="Telephone portable" placeholder="Tél.portable"></code></br></br>	
+
 				
-				<input type="text" name="Animal" placeholder="Nom de l'animal"></code>
 				<select name="Type" class="type">
 		        <option value="Chien">Chien</option>
 		        <option value="Chat">Chat</option>
 		        <option value="Autre">Autre</option>
-		         </select></br>
+		         </select>
 		         
+		         <input type="text" name="Animal" placeholder="Nom de l'animal"></code></form>
+
 		        <select name="Probleme" class="probleme">
-		        <option value="Consultation">Consultation</option> 
+		        <option value="Consultation">Type de consultation</option> 
 		        <option value="Vaccination">Vaccination</option>
 		        <option value="Sterilisation">Sterilisation</option>    
 		        <option value="Chirurgie">Chirurgie</option>
@@ -72,7 +75,7 @@
 		   		<button type="button" class="btn btn-default btn-lg Agenda">AGENDA</button>
 
 
-		        <textarea name="AVIS" class="avis"></textarea>
+		        <textarea name="AVIS" placeholder="Commentaire..." class="avis"></textarea>
 
 		        <button type="button" class="btn btn-default EnvoieForm">ENVOYER</button>
 		        </form>

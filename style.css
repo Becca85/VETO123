@@ -1,4 +1,4 @@
-		
+
 * {
 	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: 'Roboto Condensed', sans-serif;
@@ -35,7 +35,7 @@ ul li a:hover {
 /* CSS Page d'Accueil*/
 
 .img-clinique {
-	background-image: url(chien.jpg);
+	background-image: url(img-renomes/facade.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -43,12 +43,15 @@ ul li a:hover {
 	padding-left: 0px;
 	padding-right: 0px;
 	width: 100%;
-  	height: 500px;
+
+  	height: 400px;
   	position: relative;	 	
 }
 
 .nom{
-	margin: 40px 0px 10px 0px;
+
+	margin: 0px 0px 10px 0px;
+
 }
 
 .flaticons {
@@ -65,23 +68,24 @@ h1, h3, h2, h5, h4{
 	text-align: center;
 }
 
-h1 {
+.raisonSocial {
 	font-size: 150px;
-	color: white;
+	color: black;
 	font-family: "Rajdhani";
 	font-weight: 600;
 	margin-bottom: -30px;
 }
 
-h3 {
-	font-size: 60px;
-	color: white;
+
+.MedecinVeto {
+	font-size: 50px;
+	color: black;
 	font-family: "Rajdhani";
 	margin-top: 0px;
 }
 
 .InfoHoraire {
-	margin: 37px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	background-color: #8EB7FE;
 	bottom: 0px;
 	padding: 10px 5px 5px 5px;
@@ -97,15 +101,16 @@ h3 {
 }
 .PresentationVeto {
 	text-align: justify;
-	margin-left: 10px;
 	margin-bottom: 20px;
-	
+	margin-left: 10px;	
 }
 
 .photo_veto {
 	float: left;
-	height: 100px;
-	width: 120px;
+	height: 215px;
+	width: 235px;
+	margin-right: 10px;
+	border-radius: 70px;
 }
 
 
@@ -123,67 +128,189 @@ h5 a {
 
 /* CSS 2eme page Conseils*/
 
-.pageConseil {
-	margin-top: 80px;
+/* button popup icones conseils */
+/* position button/title & colors */
+.titrebutton > div {      
+	text-align:center;
 }
 
-.icone {
-	height: auto;
-	width: auto;
-	margin-left: 120px;
-	margin-bottom: 20px;
+/* button grp 1 */
+.sterilisation {
+	color: #008080;
 }
 
-.separation {
-	margin-top: 100px;
+.vaccination {
+	color: #99E298;
 }
 
-h6 { 
-	padding-top: 80px;
+.parasites {
+	color: #916F6F;
 }
 
-.scrollup {
-	width: 200px;
-	height: 60px;
-	position: fixed;
-	bottom: 70px;
-	right: 70px;
-	display: none;
-	color: #40B299;
-	border: none;
-	font-size: 20px;
-	text-align: center;
-	line-height: 37px;
-}
- 
-.scrollup:hover {
-	color: green;
+/* button grp 2 */
+.medication {
+	color: #FF0000;
 }
 
+.hygienes  {
+	color: #D5D5FF;
+}
 
-/* CSS 3eme page Tarifs*/
+.identification {
+	color: #800000;
+}
+
+/* button grp 3 */
+.education {
+	color: #80B3FF;
+}
+
+.autres1  {
+	color: #008080;
+}
+
+.autres2 {
+	color: #008080;
+}
+
+.btn {
+	vertical-align: 0 !important;
+
+}
+/* button img */
+.btn-circle-sterilisation {            
+  width: 120px;
+  height: 120px;
+  margin-top: 60px;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoSteril.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.btn-circle-vaccination {			
+  width: 120px;
+  height: 120px;;
+  margin-top: 60px;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoVacc.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.btn-circle-parasites {	
+  width: 120px;
+  height: 120px;
+  margin-top: 60px;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoParaz.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.btn-circle-medication {
+  width: 120px;
+  height: 120px;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoMed.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.btn-circle-hygienes {			
+  width: 120px;
+  height: 120px;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoHyg.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.btn-circle-identification {			
+  width: 120px;
+  height: 120px;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoID.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.btn-circle-education {			
+  width: 120px;
+  height: 120px;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoEduc1.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.btn-circle-autres1  {			
+  width: 120px;
+  height: 120px;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoSteril.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.btn-circle-autres2  {        
+  width: 120px;
+  height: 120px;
+  border-radius: 70px !important;
+  background-image: url('elements/img123vet/icoSteril.svg') !important;
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+/* CSS 3eme page Prestation*/
+.Titre {
+	margin-top: 10px;
+	color: black;
+}
+
 .accordion{
-	height: 700px;
+	height: 70vh;
 }
 
-#accordion {
-	margin-top: 100px; 
-	margin-bottom: 100px;
+.accordeonConseils{
+	margin-top: 10px; 
+	margin-bottom: 10px;
 }
 
 .TitreTarif {
 	text-align: left;
-	color: white;
+	color: #000B50;
 	line-height: 30px;
 }
 
 .panel-heading {
-	background-color: #916F6F;
+	background-color: #8BBDD3;
 	height: 55px;
 	margin-bottom: 5px;
 }
 
-
+/* CSS page Espaces de ventes*/
+.TitreVentes {
+	margin-top: 25px;
+	color: black;
+}
+.PartenaireVentes {
+	color: black;
+}
+.accordeonVentes {
+	margin-top: 50px; 
+	margin-bottom: 20px;
+}
+.accordeonVentes2 {
+	background-color: #046893;
+	height: 55px;
+	margin-bottom: 5px;
+}
+.TitreVentes2 {
+	text-align: left;
+	color: white;
+	line-height: 30px;
+}
 
 /* CSS 4eme page Contact*/
 
