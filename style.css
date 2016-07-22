@@ -1,4 +1,4 @@
-	
+		
 * {
 	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: 'Roboto Condensed', sans-serif;
@@ -207,12 +207,13 @@ input {
 	width: 200px;
 }
 
-.probleme {
+.probleme, .choix, .agenda{
 	margin-top: 20px;
 	margin-bottom: 5px;
 	height: 50px;
 	width: 200px;
 }
+
 .avis {
 	width: 500px;
 	height : 200px;
@@ -231,7 +232,7 @@ input {
 	margin-bottom: 40px;
 	padding-top: 10px;
 	padding-left: 10px;
-	background-color: #40B299;
+	background-color: #143143;
 	color: white;
 	height: 120px;
 	width: 280px;
