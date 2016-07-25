@@ -457,6 +457,12 @@ li {
 
 /* CSS carousel*/
 
+.fleche {
+	font-size: 70px;
+	line-height: 500px;
+	color:#061439;
+}
+
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 58.5%;
