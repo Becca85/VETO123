@@ -17,7 +17,7 @@
 }
 .menu{
 	background-color: #3A83FF;
-	margin-left: 250px;
+	margin-left: 20%;
 }
 
 .navbar-fixed-top {
@@ -43,7 +43,7 @@ ul li a:hover {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin: 50px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	padding-left: 0px;
 	padding-right: 0px;
 	width: 100%;
@@ -52,8 +52,8 @@ ul li a:hover {
 }
 
 .nom{
-
 	margin: 0 auto;
+	margin-top: 70px;
 	background-color: rgba(4, 52, 89,0.5);
 	width: 700px;
 }
@@ -81,31 +81,31 @@ h3 {
 
 
 .raisonSocial {
-	font-size: 120px;
+	font-size: 80px;
 	color: white;
 	font-family: "Rajdhani";
 	font-weight: 600;
-	margin-bottom: -30px;
+	margin-bottom: 0px;
 }
 
 
 .MedecinVeto {
-	font-size: 50px;
+	font-size: 25px;
 	color: white;
 	font-family: "Rajdhani";
 	margin-top: 0px;
 }
 
 .InfoHoraire {
-	margin: 12px 0px 0px 0px;
-	background-color: #8EB7FE;
-	bottom: 0px;
+	margin-top: 10px;
+	background-color: rgba(4, 52, 89,0.5);
 	padding: 10px 5px 5px 5px;
+	width: 700px;
 }
 
 .Horaires {
 	font-size: 18px;
-	color: #475061;
+	color: white;
 	text-align: center;
 }
 .presentation {
@@ -153,6 +153,13 @@ h5 a {
 .TitreConseils {
 	margin-top: 50px;
 	color: black;
+}
+
+.TitreConseils:before {
+content:"";
+display:block;
+height:50px; /* fixed header height*/
+margin:-50px 0 0; /* negative fixed header height */
 }
 
 /* button popup icones conseils */
@@ -338,10 +345,21 @@ h5 a {
 	color: white;
 	line-height: 30px;
 }
+.TitreVentes:before {
+content:"";
+display:block;
+height:50px; /* fixed header height*/
+margin:-50px 0 0; /* negative fixed header height */
+}
 
-/* CSS 4eme page Contact*/
+/* CSS 4eme page Contact et Prise de RDV*/
 
 /* CSS 4eme page partie formulaire*/
+
+.pageContact {
+	height: 600px;
+}
+
 
 .TitreForm {
 	margin-top: 80px;
