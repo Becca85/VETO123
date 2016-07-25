@@ -430,6 +430,10 @@ margin-bottom: 35px;
 
 /* CSS plan du site*/
 
+.margePlanDuSite {
+	margin-top: 60px;
+}
+
 .listePDS {
 	color: #555;
 	list-style: none;
