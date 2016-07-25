@@ -24,6 +24,10 @@
 	margin-bottom: 10px;
 }
 
+.marginBarrenav {
+	margin-top: 30px;
+}
+
 ul li a {
 	color: white;
 }
@@ -48,7 +52,9 @@ ul li a:hover {
 }
 
 .nom{
-	margin: 0px 0px 10px 0px;
+	margin: 0 auto;
+	background-color: rgba(4, 52, 89,0.5);
+	width: 700px;
 }
 
 .flaticons {
@@ -65,9 +71,17 @@ h1, h3, h2, h5, h4{
 	text-align: center;
 }
 
-.raisonSocial {
-	font-size: 150px;
+h3 {
+	font-size: 50px;
 	color: black;
+	font-family: "Rajdhani";
+	margin-top: 0px;
+}
+
+
+.raisonSocial {
+	font-size: 120px;
+	color: white;
 	font-family: "Rajdhani";
 	font-weight: 600;
 	margin-bottom: -30px;
@@ -75,13 +89,13 @@ h1, h3, h2, h5, h4{
 
 .MedecinVeto {
 	font-size: 50px;
-	color: black;
+	color: white;
 	font-family: "Rajdhani";
 	margin-top: 0px;
 }
 
 .InfoHoraire {
-	margin: 0px 0px 0px 0px;
+	margin: 12px 0px 0px 0px;
 	background-color: #8EB7FE;
 	bottom: 0px;
 	padding: 10px 5px 5px 5px;
@@ -122,6 +136,15 @@ h1, h3, h2, h5, h4{
 h5 a {
 	color: white;
 }
+
+/* CSS News Letter*/
+
+.newsletter {
+	margin-top: 10px;
+	border: 1px solid black;
+	text-align: justify;
+}
+
 
 /* CSS 2eme page Conseils*/
 
@@ -238,7 +261,7 @@ h5 a {
 
 /* CSS page Espaces de ventes*/
 .TitreVentes {
-	margin-top: 25px;
+	margin-top: 50px;
 	color: black;
 }
 .PartenaireVentes {

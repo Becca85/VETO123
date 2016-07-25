@@ -38,9 +38,9 @@
 			    <div class="collapse navbar-collapse" id="myNavbar">
 			      <ul class="nav navbar-nav menu">
 			      	<li class="active"><a href="index.html">ACCUEIL</a></li>
-			      	<li class="active"><a href="index3.html">PRESTATIONS</a></li>
-			        <li class="active"><a href="index2.html">FICHES CONSEILS</a></li>
-			   			<li class="active"><a href="index3.html">ESPACE VENTE</a></li>
+			      	<li class="active"><a href="#ancrePrestation">PRESTATIONS</a></li>
+			        <li class="active"><a href="#ancrePrestation">FICHES CONSEILS</a></li>
+			   			<li class="active"><a href="#ancreVentes">ESPACE VENTE</a></li>
 			   			<li class="active"><a href="index4.html">RENDEZ-VOUS</a></li>
 			        <li class="active"><a href="index4.html">CONTACT</a></li>
 			 
@@ -63,14 +63,14 @@
 		  			<img class="flaticon" src="FontVert/social-media.svg"/>
 		  			<img class="flaticon" src="FontVert/facebook-logo.svg"/>
 		  		</div>
-		  			  			<div class="InfoHoraire center-block">
-		  			<p class="Horaires">123 Véto vous accueille du lundi au vendredi de 9h à 12h et de 14h à
-						19h et le samedi de 9h à 12h</p>
-						<p class="Horaires">les urgences sont assurées 24h/24 7 jours sur 7 sur appel téléphonique
-						au 02 40 01 61 69</p> 
-					</div>
 	  			</div>
 
+            <div class="InfoHoraire center-block">
+            <p class="Horaires">123 Véto vous accueille du lundi au vendredi de 9h à 12h et de 14h à
+            19h et le samedi de 9h à 12h</p>
+            <p class="Horaires">les urgences sont assurées 24h/24 7 jours sur 7 sur appel téléphonique
+            au 02 40 01 61 69</p> 
+          </div>
 	  			
 	  		</div>
 	  	</div>
@@ -266,8 +266,20 @@
   </div>
 </section>
 
+<div class="row">
+  <div class="col-md-12 newsletter">
+    <h2 class="TitreNewsLetter">News letter</h2>
+    <p class="texteNewsLetter">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.Veneris templo insignis. tanta autem tamque multiplici fertilitate abundat rerum omnium eadem Cyprus ut nullius externi indigens adminiculi indigenis viribus a fundamento ipso carinae ad supremos usque carbasos aedificet onerariam navem omnibusque armamentis instructam mari committat.
+      Erat autem diritatis eius hoc quoque indicium nec obscurum nec latens, quod ludicris cruentis delectabatur et in circo sex vel septem aliquotiens vetitis certaminibus pugilum vicissim se concidentium perfusorumque sanguine specie ut lucratus ingentia laetabatur.
+</p>
+  </div>
+</div>
+
 <!--PAGE PRESTATIONS -->
-<h3 class="TitreVentes">PRESTATIONS</h3>
+<h3 class="TitreVentes marginBarrenav" id="ancrePrestation">PRESTATIONS</h3>
 	<!--Accordeon tarifs-->
 <div class="panel-group accordion accordeonConseils" id="accordion">
   <div class="panel panel-default">
@@ -377,8 +389,8 @@
 
 <!--PAGE ESPACE VENTES -->
 <!--Accordeon tarifs-->
-      <h3 class="TitreVentes">PRODUITS EN VENTE</h3>
-      <h2 class="PartenaireVentes">En partenariat avec : </h2>
+      <h3 class="TitreVentes marginBarrenav" id="ancreVentes">PRODUITS EN VENTE</h3>
+      
 <div class="panel-group accordion accordeonVentes" id="accordion">
   <div class="panel panel-default">
     <a data-toggle="collapse" data-parent="#accordion" href="#collapseventes1">
@@ -509,4 +521,6 @@
 	</div>
 
   </body>
+
+
   </html>
