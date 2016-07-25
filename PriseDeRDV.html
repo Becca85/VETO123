@@ -15,8 +15,8 @@
   </head>
 
   <body>
-	  <div class="container-fluid">
- 						<!--navbar-->
+	  	<div class="container-fluid">
+ 							<!--navbar-->
 			<nav class="navbar navbar-fixed-top">
 			  <div class="container-fluid">
 			    <div class="navbar-header">
@@ -24,66 +24,72 @@
 			   
 			    </div>
 			    <div class="collapse navbar-collapse" id="myNavbar">
-			      <ul class="nav navbar-nav navbar-right">
+			      <ul class="nav navbar-nav menu">
 			      	<li class="active"><a href="index.html">ACCUEIL</a></li>
-			        <li class="active"><a href="index2.html">CONSEILS</a></li>
-			        <li class="active"><a href="index3.html">TARIFS + PRESTATIONS</a></li>
-			        <li class="active"><a href="index4.html">CONTACT</a></li>
-			        <li class="active"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+			      	<li class="active"><a href="index.html?#ancrePrestation">PRESTATIONS</a></li>
+			        <li class="active"><a href="index.html?#ancreConeil">FICHES CONSEILS</a></li>
+			   			<li class="active"><a href="index.html?#ancreVentes">ESPACE VENTE</a></li>
+			   			<li class="active"><a href="PriseDeRDV.html">RENDEZ-VOUS</a></li>
+			       <li class="active"><a href="contact.html">CONTACT</a></li>
+			 
 			      </ul>
 			    </div>
 			  </div>
 			</nav>
 				<!--page contact-->
 
-	<div class="row container-fluid">
-		<div class="col-md-6">
-			
-				
-			<!--Formulaire de contact-->
-			<h2 class="TitreForm">Prendre un rendez-vous</h2>
-			<form action="formulaire de contact" method="post">
-				<input type="text" name="nom" placeholder="NOM" class="identite"></code></section> 
-				<input type="text" name="Prenom" placeholder="Prenom"></code>
-				<input type="text" name="Telephone portable" placeholder="Tél.portable"></code></br></br>	
+			<div class="row container-fluid">
+				<div class="col-md-6">
+					
+						
+					<!--Formulaire de contact-->
+					<h2 class="TitreForm">Prendre un rendez-vous</h2>
+					<form action="formulaire de contact" method="post">
+						<input type="text" name="nom" placeholder="NOM" class="identite"></input> 
+						<input type="text" name="Prenom" placeholder="Prenom"></input>
+						<input type="text" name="Telephone portable" placeholder="Tél.portable"></input>
 
-				
-				<select name="Type" class="type">
-		        <option value="Chien">Chien</option>
-		        <option value="Chat">Chat</option>
-		        <option value="Autre">Autre</option>
-		         </select>
-		         
-		         <input type="text" name="Animal" placeholder="Nom de l'animal"></code></form>
+						</br></br>	
 
-		        <select name="Probleme" class="probleme">
-		        <option value="Consultation">Type de consultation</option> 
-		        <option value="Vaccination">Vaccination</option>
-		        <option value="Sterilisation">Sterilisation</option>    
-		        <option value="Chirurgie">Chirurgie</option>
-		        <option value="Hospitalisation">Hospitalisation</option>
-		        <option value="Autre">Autre</option>
-		        </select>
+						
+						<select name="Type" class="type">
+					        <option value="Chien">Chien</option>
+					        <option value="Chat">Chat</option>
+					        <option value="Autre">Autre</option>
+				         </select>
+				         
+				         <input type="text" name="Animal" placeholder="Nom de l'animal"></input>
 
-		        <select name="Choix" class="choix">
-		        <option value="Choix veto">Choix du vétérinaire</option> 
-		        <option value="Dr Wintz">Dr Wintz</option>
-		        <option value="Dr Mayroussier">Dr Mayroussier</option>
-		        <option value="Indifferent">Indifférent</option>
-		        </select>
-		         
-		   		<button type="button" class="btn btn-default btn-lg Agenda">AGENDA</button>
+				        <select name="Probleme" class="probleme">
+					        <option value="Consultation">Type de consultation</option> 
+					        <option value="Vaccination">Vaccination</option>
+					        <option value="Sterilisation">Sterilisation</option>    
+					        <option value="Chirurgie">Chirurgie</option>
+					        <option value="Hospitalisation">Hospitalisation</option>
+					        <option value="Autre">Autre</option>
+				        </select>
 
 
-		        <textarea name="AVIS" placeholder="Commentaire..." class="avis"></textarea>
+				        <select name="Choix" class="choix">
+					        <option value="Choix veto">Choix du vétérinaire</option> 
+					        <option value="Dr Wintz">Dr Wintz</option>
+					        <option value="Dr Mayroussier">Dr Mayroussier</option>
+					        <option value="Indifferent">Indifférent</option>
+				        </select>
+				         
+				   		<button type="button" class="btn btn-default btn-lg Agenda">AGENDA</button>
 
-		        <button type="button" class="btn btn-default EnvoieForm">ENVOYER</button>
 
-		        </form>
-		    </div>
+				        <textarea name="AVIS" placeholder="Commentaire..." class="avis"></textarea>
 
-			<!--adresse-->
-	      <div class="col-md-6">
+
+				        <button type="button" class="btn btn-default EnvoieForm">ENVOYER</button>
+
+			        </form>
+			    </div>
+
+					<!--adresse-->
+				<div class="col-md-6">
 					<div class="adresse">
 						<address>123 VETO<br/>
 						32 rue du vélodrome pontchateau <br/>
@@ -91,27 +97,27 @@
 						</address>
 						<telephone>02.99.23.56.25</telephone>
 					</div>
-		
+				
 
-					
+							
 
 				</div>
-				</div>
-	
+			</div>
 
-				<!--Footer-->
-
-		  	<div class="row footer" >
-		  		<div class="col-md-4">
-		  			<h5><a href="index4.html">Contact</a></h5>
-		  		</div>
-		  		<div class="col-md-4">
-		  			<h5><a href="index5.html">Mentions légales</a></h5>
-		  		</div>
-		  		<div class="col-md-4">
-		  			<h5><a href="PlanDuSite.html">Plan du site</a></h5>
-		  		</div>
-		  	</div>
+			<!--Footer-->
+    <div class="row footer" >
+                           <div class="col-md-4">
+                            <h5><a href="contact.html">Contact</a></h5>
+                          </div>
+                          <div class="col-md-4">
+                            <h5><a href="infoLegales.html">Mentions légales</a></h5>
+                          </div>
+                          <div class="col-md-4">
+                            <h5><a href="PlanDuSite.html">Plan du site</a></h5>
+                          </div>
+                        </div>
 
 	  </div>
-  </body>
+		
+  	</body>
+</html>
