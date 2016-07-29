@@ -183,7 +183,8 @@ h5 a {
 /* CSS 2eme page Conseils*/
 
 .TitreConseils {
-	margin-top: 50px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 	color: black;
 }
 
@@ -330,12 +331,12 @@ margin:-50px 0 0; /* negative fixed header height */
 
 /* CSS 3eme page Prestation*/
 .Titre {
-	margin-top: 10px;
+	margin-top: 50px;
 	color: black;
 }
 
 .accordion{
-	height: 70vh;
+	height: 80vh;
 }
 
 .accordeonConseils{
@@ -357,7 +358,7 @@ margin:-50px 0 0; /* negative fixed header height */
 
 /* CSS page Espaces de ventes*/
 .TitreVentes {
-	margin-top: 50px;
+	margin-top: 100px;
 	color: black;
 }
 .PartenaireVentes {
