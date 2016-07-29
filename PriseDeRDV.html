@@ -53,8 +53,9 @@
 
 						
 						<select name="Type" class="type">
-					        <option value="Chien">Chien</option>
+					        <option value="type">Type d'animal</option>
 					        <option value="Chat">Chat</option>
+					        <option value="Chat">Chien</option>
 					        <option value="Autre">Autre</option>
 				         </select>
 				         
@@ -69,22 +70,40 @@
 					        <option value="Autre">Autre</option>
 				        </select>
 
-
+				    <div class="choixRdv">
 				        <select name="Choix" class="choix">
 					        <option value="Choix veto">Choix du vétérinaire</option> 
 					        <option value="Dr Wintz">Dr Wintz</option>
 					        <option value="Dr Mayroussier">Dr Mayroussier</option>
 					        <option value="Indifferent">Indifférent</option>
 				        </select>
-				         
-				   		<button type="button" class="btn btn-default btn-lg Agenda">AGENDA</button>
 
+						<select name="dates" class="dates">
+					        <option value="date">28/07/2016</option> 
+					        <option value="date">29/07/2016</option>
+					        <option value="date">30/07/2016</option>
+					        <option value="date">31/07/2016</option>
+					        <option value="date">01/08/2016</option>
+					        <option value="date">02/08/2016</option>
+					        <option value="date">03/08/2016</option>
+					        <option value="date">Date</option>
+				        </select>
+
+				        <select name="horaires" class="horaires">
+					        <option value="horaire">08:30</option> 
+					        <option value="horaire">09:00</option>
+					        <option value="horaire">09:30</option>
+					        <option value="horaire">10:00</option>
+					        <option value="horaire">10:30</option>
+					        <option value="horaire">11:00</option>
+					        <option value="horaire">11:30</option>
+					        <option value="horaire">12:00</option>
+					        <option value="horaire">Horaire</option>
+				        </select>
+				    </div>
 
 				        <textarea name="AVIS" placeholder="Commentaire..." class="avis"></textarea>
-
-
 				        <button type="button" class="btn btn-default EnvoieForm">ENVOYER</button>
-
 			        </form>
 			    </div>
 
