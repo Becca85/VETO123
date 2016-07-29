@@ -30,6 +30,7 @@
 
 ul li a {
 	color: white;
+	font-size: 18px;
 }
 
 ul li a:hover {
@@ -125,8 +126,9 @@ h3 {
 	background-color: white;
 }
 .PresentationVeto {
+	font-size: 18px;
 	text-align: justify;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	margin-left: 10px;	
 
 }
@@ -139,6 +141,9 @@ h3 {
 	border-radius: 70px;
 }
 
+.Dr{
+	margin-left: 70px;
+}
 
 
 .footer{
@@ -154,9 +159,13 @@ h5 a {
 
 /* CSS News Letter*/
 
+.Lignenewsletter{
+	margin-left: 5px;
+}
+
 .newsletter {
-	margin: 20px 20px 20px 20px;
-	padding: 10px 0px 15px 0px;
+	margin: 20px 50px 20px -5px;
+	padding: 10px 10px 15px 10px;
 	border: 5px solid #3A83FF;
 	text-align: justify;
 }
