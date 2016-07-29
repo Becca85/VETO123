@@ -54,7 +54,7 @@ ul li a:hover {
 .nom{
 	margin: 0 auto;
 	margin-top: 70px;
-	background-color: rgba(4, 52, 89,0.5);
+	background-color: rgba(4, 52, 89,0.6);
 	width: 700px;
 }
 
@@ -98,7 +98,7 @@ h3 {
 
 .InfoHoraire {
 	margin-top: 10px;
-	background-color: rgba(4, 52, 89,0.5);
+	background-color: rgba(4, 52, 89,0.6);
 	padding: 10px 5px 5px 5px;
 	width: 700px;
 }
@@ -113,7 +113,7 @@ h3 {
 }
 .PresentationVeto {
 	text-align: justify;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-left: 10px;	
 
 }
@@ -430,6 +430,10 @@ margin-bottom: 35px;
 
 /* CSS plan du site*/
 
+.margePlanDuSite {
+	margin-top: 60px;
+}
+
 .listePDS {
 	color: #555;
 	list-style: none;
@@ -452,6 +456,12 @@ li {
 
 
 /* CSS carousel*/
+
+.fleche {
+	font-size: 70px;
+	line-height: 500px;
+	color:#061439;
+}
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
