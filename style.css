@@ -127,6 +127,8 @@ h3 {
 }
 .presentation {
 	background-color: white;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 .PresentationVeto {
 	font-size: 18px;
@@ -164,6 +166,7 @@ h5 a {
 
 .Lignenewsletter{
 	margin-left: 5px;
+	margin-right: 0px;
 }
 
 .newsletter {
