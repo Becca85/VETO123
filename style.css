@@ -357,10 +357,6 @@ margin:-50px 0 0; /* negative fixed header height */
 
 /* CSS 4eme page partie formulaire*/
 
-.pageContact {
-	height: 600px;
-}
-
 
 .TitreForm {
 	margin-top: 80px;
@@ -380,21 +376,25 @@ input {
 	width: 200px;
 }
 
-.probleme, .choix, .agenda{
+.probleme, .choix{
 	margin-top: 20px;
 	margin-bottom: 5px;
 	height: 50px;
 	width: 200px;
 }
 
+.horaires, .dates{
+	height: 50px;
+	width: 99px !important;
+}
+
 .avis {
-	width: 500px;
+	width: 410px;
 	height : 150px;
 	margin-bottom: 5px;
 }
 
 .EnvoieForm {
-	float: right;
 	margin-right: 40px;
 }
 
