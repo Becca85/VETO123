@@ -30,7 +30,6 @@
 
 ul li a {
 	color: white;
-	font-size: 18px;
 }
 
 ul li a:hover {
@@ -127,6 +126,8 @@ h3 {
 }
 .presentation {
 	background-color: white;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 .PresentationVeto {
 	font-size: 18px;
@@ -164,6 +165,7 @@ h5 a {
 
 .Lignenewsletter{
 	margin-left: 5px;
+	margin-right: 0px;
 }
 
 .newsletter {
@@ -181,6 +183,7 @@ h5 a {
 
 .TitreConseils {
 	margin-top: 50px;
+	margin-bottom: 10px;
 	color: black;
 }
 
@@ -327,12 +330,12 @@ margin:-50px 0 0; /* negative fixed header height */
 
 /* CSS 3eme page Prestation*/
 .Titre {
-	margin-top: 10px;
+	margin-top: 50px;
 	color: black;
 }
 
 .accordion{
-	height: 70vh;
+	height: 80vh;
 }
 
 .accordeonConseils{
@@ -354,7 +357,7 @@ margin:-50px 0 0; /* negative fixed header height */
 
 /* CSS page Espaces de ventes*/
 .TitreVentes {
-	margin-top: 50px;
+	margin-top: 100px;
 	color: black;
 }
 .PartenaireVentes {
