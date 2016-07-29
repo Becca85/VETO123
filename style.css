@@ -166,6 +166,7 @@ margin:-50px 0 0; /* negative fixed header height */
 /* position button/title & colors */
 .titrebutton > div {      
 	text-align:center;
+	font-size: 20px;
 }
 
 /* button grp 1 */
@@ -187,7 +188,7 @@ margin:-50px 0 0; /* negative fixed header height */
 }
 
 .hygienes  {
-	color: #D5D5FF;
+	color: #61E8F5;
 }
 
 .identification {
