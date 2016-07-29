@@ -6,7 +6,7 @@
 
 
 .corpsDuTexte {
-	padding: 0px;
+	padding: 10px;
 }
 
 /* CSS menu*/
@@ -36,16 +36,32 @@ ul li a:hover {
 	color: #40B299;
 }
 
+/* lien pour prise de RDV*/
+a.priseDeRDV {
+	position:fixed;
+	margin-top: 300px;
+	padding: 0px 5px 0px 5px;
+	color: black;
+	right: 15px;
+	z-index:10;
+	font-size: 25px;
+	background-color: rgba(4, 52, 89,0.6);
+
+}
+
+
 /* CSS Page d'Accueil*/
+
+.ligneImage {
+	margin-right: 0px !important;
+	margin-left: 0px;
+}
 
 .img-clinique {
 	background-image: url(img-renomes/facade.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin: 0px 0px 0px 0px;
-	padding-left: 0px;
-	padding-right: 0px;
 	width: 100%;
   	height: 400px;
   	position: relative;	 	
@@ -110,10 +126,13 @@ h3 {
 }
 .presentation {
 	background-color: white;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 .PresentationVeto {
+	font-size: 18px;
 	text-align: justify;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	margin-left: 10px;	
 
 }
@@ -126,6 +145,9 @@ h3 {
 	border-radius: 70px;
 }
 
+.Dr{
+	margin-left: 70px;
+}
 
 
 .footer{
@@ -141,10 +163,19 @@ h5 a {
 
 /* CSS News Letter*/
 
+.Lignenewsletter{
+	margin-left: 5px;
+	margin-right: 0px;
+}
+
 .newsletter {
-	margin-top: 10px;
-	border: 1px solid black;
+	margin: 20px 50px 20px -5px;
+	padding: 10px 10px 15px 10px;
+	border: 5px solid #3A83FF;
 	text-align: justify;
+}
+#TitreNewsLetter{
+	margin-top: 5px 0px 20px 0px !important;
 }
 
 
@@ -152,6 +183,7 @@ h5 a {
 
 .TitreConseils {
 	margin-top: 50px;
+	margin-bottom: 10px;
 	color: black;
 }
 
@@ -299,12 +331,12 @@ margin:-50px 0 0; /* negative fixed header height */
 
 /* CSS 3eme page Prestation*/
 .Titre {
-	margin-top: 10px;
+	margin-top: 50px;
 	color: black;
 }
 
 .accordion{
-	height: 70vh;
+	height: 80vh;
 }
 
 .accordeonConseils{
@@ -326,7 +358,7 @@ margin:-50px 0 0; /* negative fixed header height */
 
 /* CSS page Espaces de ventes*/
 .TitreVentes {
-	margin-top: 50px;
+	margin-top: 100px;
 	color: black;
 }
 .PartenaireVentes {
