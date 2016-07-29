@@ -30,7 +30,6 @@
 
 ul li a {
 	color: white;
-	font-size: 20px;
 }
 
 ul li a:hover {
@@ -183,8 +182,8 @@ h5 a {
 /* CSS 2eme page Conseils*/
 
 .TitreConseils {
-	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-top: 50px;
+	margin-bottom: 10px;
 	color: black;
 }
 
