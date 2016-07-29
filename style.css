@@ -6,7 +6,7 @@
 
 
 .corpsDuTexte {
-	padding: 0px;
+	padding: 10px;
 }
 
 /* CSS menu*/
@@ -155,9 +155,13 @@ h5 a {
 /* CSS News Letter*/
 
 .newsletter {
-	margin-top: 10px;
-	border: 1px solid black;
+	margin: 20px 20px 20px 20px;
+	padding: 10px 0px 15px 0px;
+	border: 5px solid #3A83FF;
 	text-align: justify;
+}
+#TitreNewsLetter{
+	margin-top: 5px 0px 20px 0px !important;
 }
 
 
